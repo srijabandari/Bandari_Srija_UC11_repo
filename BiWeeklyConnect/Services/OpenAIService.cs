@@ -10,6 +10,7 @@
             _http = http;
             _configuration = configuration;
         }
+
         public async Task<string> AnalyzeSummaryAsync(string summary) { 
             var payload = new
             {
