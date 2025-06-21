@@ -1,0 +1,6 @@
+@BiWeeklyConnect_HostAddress = http://localhost:5144
+
+GET {{BiWeeklyConnect_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
